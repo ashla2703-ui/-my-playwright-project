@@ -12,6 +12,7 @@ test('Home Page', async ({ page }) => {
   console.log('Page URL is:', pageURL);
 
   await expect(page).toHaveURL('https://www.demoblaze.com/index.html');
+https://github.com/<your-username>/<repository-name>.git
 
   await page.close();
-});
+});  
